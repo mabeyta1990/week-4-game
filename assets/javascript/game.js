@@ -48,7 +48,7 @@
 
 //START GAME FUNCTION ON START BUTTON
 $('#start').on('click', function () {
-    alert("Select a Character & an Opponent - May The Force Be With You ");
+    alert("May The Force Be With You ");
 
     $('#start').hide();
     playGame();
