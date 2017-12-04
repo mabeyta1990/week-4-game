@@ -1,0 +1,78 @@
+body {
+    background-image: url("../images/DeathStarBackground.jpg");
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    display: block;
+    
+}
+
+.button {
+    font-family: 'Orbitron', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.fighterContainer {
+    width: 100%;
+    float: left;
+    margin-left: 75px;
+    
+}
+.fighter1{
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.fighter2{
+    float: left;
+    padding: 10px;
+    position: relative;
+
+}
+.fighter3 {
+    float: left;
+    padding: 10px;
+    position: relative;
+
+}
+.fighter4 {
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.fighter1Enemy{
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.fighter2Enemy{
+    float: left;
+    padding: 10px;
+    position: relative;
+
+}
+.fighter3Enemy{
+    float: left;
+    padding: 10px;
+    position: relative;
+
+}
+.fighter4Enemy{
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+span {
+    position: absolute;
+    width: auto;
+    bottom: 15px;
+    left: 15px;
+    background-color: #0F1932;
+    padding: 5px;
+
+}
+.enemyCharacter {
+    clear: both;
+
+}
