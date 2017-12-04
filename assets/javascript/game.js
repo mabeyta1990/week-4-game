@@ -172,14 +172,14 @@ function attackFunction () {
     $('#attackButton').on('click', function() {  
         currOpponent.health = currOpponent.health - currCharacter.attack;
         console.log(currOpponent.name, currOpponent.health);
-        $('.yourCharacter span').contents().first().replaceWith(currCharacter.name + ' - ' + currCharacter.health);
+        $('.yourCharacter span').contents().first().replaceWith(currCharacter.name + ' - HP' + currCharacter.health);
         if(currOpponent.health <= 0){
             alert('The Force Was Strong With You');
             playGame();
         }
         currCharacter.health = currCharacter.health - currOpponent.counterAttack;
         console.log(currCharacter.name, currCharacter.health);
-        $('.enemyCharacter span').contents().first().replaceWith(currOpponent.name + ' - ' + currOpponent.health);
+        $('.enemyCharacter span').contents().first().replaceWith(currOpponent.name + ' - HP' + currOpponent.health);
         if (currCharacter.health <= 0){
             alert('The Force was Not With you!');
             playGame();
